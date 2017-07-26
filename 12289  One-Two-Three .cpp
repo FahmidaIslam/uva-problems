@@ -8,7 +8,7 @@ int main()
     while(t--)
     {
         cin>>s;
-        if(s.size()>3) {cout<<'3'<<endl;}
+        if(s.size()>3) {cout<<3<<endl;}
         else
         {
             if((s[0]=='t' && s[1]=='w') || (s[0]=='t' &&s[2]=='o')||(s[1]=='w' &&s[2]=='o')) {cout<<2<<endl;}
